@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`convertIWorkzoneToIKapschWorkzone Convert to IKapschWorkzone a Radius CIM 1`] = `
+Object {
+  "areWorkersPresent": false,
+  "broadcastRegion": Object {
+    "coordinates": Array [
+      Array [],
+    ],
+    "type": "Polygon",
+  },
+  "end": "1970-01-01T00:00:00Z",
+  "forEver": false,
+  "heading": Array [],
+  "id": -1,
+  "interval": 1300,
+  "isWorkzone": true,
+  "itisCodes": Array [
+    200,
+    300,
+  ],
+  "lane": "CENTER",
+  "laneWidth": 12,
+  "name": "Demo CIM",
+  "path": Object {
+    "coordinates": Array [
+      Array [
+        0.224423,
+        0.134211,
+        0,
+      ],
+      Array [
+        0.224423,
+        0.134212,
+        0,
+      ],
+    ],
+    "type": "LineString",
+  },
+  "point": Object {
+    "coordinates": Array [
+      0.224423,
+      0.134211,
+      null,
+    ],
+    "type": "Point",
+  },
+  "priority": 62,
+  "psid": "8002F",
+  "radius": 12,
+  "serviceChannelStr": "176",
+  "shoulder": "LEFT",
+  "speedlimit": 0,
+  "start": "1970-01-01T00:00:00Z",
+  "txmode": "CONT",
+  "useEncryption": true,
+  "usePath": true,
+  "useRadius": true,
+  "useSignature": false,
+}
+`;
+
+exports[`convertIWorkzoneToIKapschWorkzone Convert to IKapschWorkzone a Region CIM 1`] = `
+Object {
+  "areWorkersPresent": false,
+  "broadcastRegion": Object {
+    "coordinates": Array [
+      Array [
+        Array [
+          0.45,
+          0.23,
+          0,
+        ],
+        Array [
+          0.46,
+          0.23,
+          0,
+        ],
+        Array [
+          0.46,
+          0.24,
+          0,
+        ],
+        Array [
+          0.47,
+          0.23,
+          0,
+        ],
+      ],
+    ],
+    "type": "Polygon",
+  },
+  "end": "1970-01-01T00:00:00Z",
+  "forEver": false,
+  "heading": Array [],
+  "id": 32441,
+  "interval": 1300,
+  "isWorkzone": true,
+  "itisCodes": Array [
+    200,
+    300,
+  ],
+  "lane": "CENTER",
+  "laneWidth": 12,
+  "name": "Demo CIM",
+  "path": Object {
+    "coordinates": Array [
+      Array [
+        0.224423,
+        0.134211,
+        0,
+      ],
+      Array [
+        0.224423,
+        0.134212,
+        0,
+      ],
+    ],
+    "type": "LineString",
+  },
+  "point": Object {
+    "coordinates": Array [
+      0.224423,
+      0.134211,
+      null,
+    ],
+    "type": "Point",
+  },
+  "priority": 62,
+  "psid": "8002F",
+  "radius": 12,
+  "serviceChannelStr": "176",
+  "shoulder": "LEFT",
+  "speedlimit": 0,
+  "start": "1970-01-01T00:00:00Z",
+  "txmode": "CONT",
+  "useEncryption": true,
+  "usePath": true,
+  "useRadius": true,
+  "useSignature": false,
+}
+`;

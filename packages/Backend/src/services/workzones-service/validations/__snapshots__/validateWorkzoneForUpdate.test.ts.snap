@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`validateWorkzoneForUpdate Default CIM 1`] = `
+Object {
+  "dataValidation": Object {},
+  "isValid": true,
+  "messages": Array [],
+}
+`;
+
+exports[`validateWorkzoneForUpdate Missing radius in meters 1`] = `
+Object {
+  "dataValidation": Object {
+    "broadcast.selectionByRadius.radiusInMeters": "Should be a number between 0...999999",
+  },
+  "isValid": false,
+  "messages": Array [
+    "Broadcast/selection by radius/radius in meters: Should be a number between 0...999999",
+  ],
+}
+`;
+
+exports[`validateWorkzoneForUpdate Missing workzoneId 1`] = `
+Object {
+  "dataValidation": Object {
+    "workzoneId": "Required",
+  },
+  "isValid": false,
+  "messages": Array [
+    "Workzone id: Required",
+  ],
+}
+`;
+
+exports[`validateWorkzoneForUpdate Reduced Speed closure type does not fail closed shoulder/lane 1`] = `
+Object {
+  "dataValidation": Object {},
+  "isValid": true,
+  "messages": Array [],
+}
+`;

@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CIM Items - Create Update Create Update Check CIM item the history: History 1`] = `
+Array [
+  Object {
+    "date": "---NUMBER>0---",
+    "name": "CIM creation",
+    "userId": "test-user-id-23242",
+    "workzone": Object {
+      "active": true,
+      "broadcast": Object {
+        "selectionByRadius": Object {
+          "radiusInMeters": 0,
+        },
+        "selectionByRegion": Object {
+          "region": Object {
+            "points": Array [],
+          },
+        },
+        "selectionMode": "REGION",
+      },
+      "closedLane": "NONE",
+      "closedLaneWidthInMeters": 0,
+      "closedShoulder": "NONE",
+      "closureSelectionMode": "SIMPLE",
+      "closureType": "NONE",
+      "createdAt": "---NUMBER>0---",
+      "deletedAt": "---NUMBER=0---",
+      "end": "2017-12-31T22:00:00.000Z",
+      "forEver": false,
+      "heading": Array [],
+      "itisCodes": Array [],
+      "kapschId": -1,
+      "name": "Demo CIM Hutton street",
+      "notes": "Should be ready on new year's eve!",
+      "path": Object {
+        "points": Array [],
+      },
+      "point": Object {
+        "alt": 0,
+        "lat": 0,
+        "lng": 0,
+      },
+      "speedLimitInMiles": 0,
+      "start": "2017-12-25T21:56:22.000Z",
+      "updatedAt": "---NUMBER>0---",
+      "workersPresent": false,
+      "workzoneId": "---STRING_NON_EMPTY---",
+    },
+  },
+  Object {
+    "date": "---NUMBER>0---",
+    "name": "CIM update",
+    "userId": "test-user-id-23242",
+    "workzone": Object {
+      "active": true,
+      "broadcast": Object {
+        "selectionByRadius": Object {
+          "radiusInMeters": 0,
+        },
+        "selectionByRegion": Object {
+          "region": Object {
+            "points": Array [],
+          },
+        },
+        "selectionMode": "REGION",
+      },
+      "closedLane": "NONE",
+      "closedLaneWidthInMeters": 0,
+      "closedShoulder": "NONE",
+      "closureSelectionMode": "SIMPLE",
+      "closureType": "NONE",
+      "createdAt": "---NUMBER>0---",
+      "deletedAt": "---NUMBER=0---",
+      "end": "2017-12-31T22:00:00.000Z",
+      "forEver": false,
+      "heading": Array [],
+      "itisCodes": Array [],
+      "kapschId": -1,
+      "name": "Demo CIM Hutton street",
+      "notes": "Should be ready on new year's eve!
+Almost done",
+      "path": Object {
+        "points": Array [],
+      },
+      "point": Object {
+        "alt": 0,
+        "lat": 32.2411,
+        "lng": 14.1244,
+      },
+      "speedLimitInMiles": 0,
+      "start": "2017-12-25T21:56:22.000Z",
+      "updatedAt": "---NUMBER>0---",
+      "workersPresent": false,
+      "workzoneId": "---STRING_NON_EMPTY---",
+    },
+  },
+]
+`;
+
+exports[`CIM Items - Create Update Create Update Check CIM item the history: Load updated CIM 1`] = `
+Object {
+  "active": true,
+  "broadcast": Object {
+    "selectionByRadius": Object {
+      "radiusInMeters": 0,
+    },
+    "selectionByRegion": Object {
+      "region": Object {
+        "points": Array [],
+      },
+    },
+    "selectionMode": "REGION",
+  },
+  "closedLane": "NONE",
+  "closedLaneWidthInMeters": 0,
+  "closedShoulder": "NONE",
+  "closureSelectionMode": "SIMPLE",
+  "closureType": "NONE",
+  "createdAt": "---NUMBER>0---",
+  "deletedAt": "---NUMBER=0---",
+  "end": "2017-12-31T22:00:00.000Z",
+  "forEver": false,
+  "heading": Array [],
+  "itisCodes": Array [],
+  "kapschId": -1,
+  "name": "Demo CIM Hutton street",
+  "notes": "Should be ready on new year's eve!
+Almost done",
+  "path": Object {
+    "points": Array [],
+  },
+  "point": Object {
+    "alt": 0,
+    "lat": 32.2411,
+    "lng": 14.1244,
+  },
+  "speedLimitInMiles": 0,
+  "start": "2017-12-25T21:56:22.000Z",
+  "updatedAt": "---NUMBER>0---",
+  "workersPresent": false,
+  "workzoneId": "---STRING_NON_EMPTY---",
+}
+`;
+
+exports[`CIM Items - Create Update Create Update Check CIM item the history: Search CIMs 1`] = `
+Array [
+  Object {
+    "active": true,
+    "broadcast": Object {
+      "selectionByRadius": Object {
+        "radiusInMeters": 0,
+      },
+      "selectionByRegion": Object {
+        "region": Object {
+          "points": Array [],
+        },
+      },
+      "selectionMode": "REGION",
+    },
+    "closedLane": "NONE",
+    "closedLaneWidthInMeters": 0,
+    "closedShoulder": "NONE",
+    "closureSelectionMode": "SIMPLE",
+    "closureType": "NONE",
+    "createdAt": "---NUMBER>0---",
+    "deletedAt": "---NUMBER=0---",
+    "end": "2017-12-31T22:00:00.000Z",
+    "forEver": false,
+    "heading": Array [],
+    "itisCodes": Array [],
+    "kapschId": -1,
+    "name": "Demo CIM Hutton street",
+    "notes": "Should be ready on new year's eve!",
+    "path": Object {
+      "points": Array [],
+    },
+    "point": Object {
+      "alt": 0,
+      "lat": 0,
+      "lng": 0,
+    },
+    "speedLimitInMiles": 0,
+    "start": "2017-12-25T21:56:22.000Z",
+    "updatedAt": "---NUMBER>0---",
+    "workersPresent": false,
+    "workzoneId": "---STRING_NON_EMPTY---",
+  },
+]
+`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`apiGoogleElevationGet Get elevation for two points 1`] = `
+Array [
+  Object {
+    "alt": 1123.64013671875,
+    "lat": 16.30942387299465,
+    "lng": 48.17835117870872,
+  },
+  Object {
+    "alt": 1111.77685546875,
+    "lat": 16.31575585914963,
+    "lng": 48.19842905647751,
+  },
+]
+`;

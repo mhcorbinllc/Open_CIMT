@@ -1,0 +1,442 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CIMT - App Settings Load default 1`] = `
+Object {
+  "closureSelectionMode": "SIMPLE",
+  "createdAt": "---NUMBER>0---",
+  "deletedAt": "---NUMBER=0---",
+  "deviceId": "*",
+  "intervalInMs": 1000,
+  "itisCodes": Array [
+    Object {
+      "code": 1025,
+      "label": "Road Construction",
+    },
+    Object {
+      "code": 769,
+      "label": "Closed to Traffic",
+    },
+    Object {
+      "code": 12545,
+      "label": "1",
+    },
+    Object {
+      "code": 8196,
+      "label": "Right Lane",
+    },
+    Object {
+      "code": 8195,
+      "label": "Left Lane",
+    },
+    Object {
+      "code": 771,
+      "label": "Closed Ahead",
+    },
+    Object {
+      "code": 7451,
+      "label": "Merge",
+    },
+    Object {
+      "code": 13580,
+      "label": "Left",
+    },
+    Object {
+      "code": 13579,
+      "label": "Right",
+    },
+    Object {
+      "code": 8208,
+      "label": "Right Shoulder",
+    },
+    Object {
+      "code": 8209,
+      "label": "Left Shoulder",
+    },
+    Object {
+      "code": 13594,
+      "label": "Left Turn",
+    },
+    Object {
+      "code": 13599,
+      "label": "Right Turn",
+    },
+    Object {
+      "code": 268,
+      "label": "Speed Limit",
+    },
+    Object {
+      "code": 12559,
+      "label": "15",
+    },
+    Object {
+      "code": 12564,
+      "label": "20",
+    },
+    Object {
+      "code": 12569,
+      "label": "25",
+    },
+    Object {
+      "code": 12574,
+      "label": "30",
+    },
+    Object {
+      "code": 12579,
+      "label": "35",
+    },
+    Object {
+      "code": 12584,
+      "label": "40",
+    },
+    Object {
+      "code": 12589,
+      "label": "45",
+    },
+    Object {
+      "code": 12594,
+      "label": "50",
+    },
+    Object {
+      "code": 12599,
+      "label": "55",
+    },
+    Object {
+      "code": 12604,
+      "label": "60",
+    },
+    Object {
+      "code": 12609,
+      "label": "65",
+    },
+    Object {
+      "code": 12614,
+      "label": "70",
+    },
+    Object {
+      "code": 8720,
+      "label": "MPH",
+    },
+    Object {
+      "code": 2574,
+      "label": "Height Limit",
+    },
+    Object {
+      "code": 13569,
+      "label": "Ahead",
+    },
+    Object {
+      "code": 12712,
+      "label": "168",
+    },
+    Object {
+      "code": 8709,
+      "label": "Inches",
+    },
+  ],
+  "priority": 4,
+  "psid": "8002",
+  "serviceChannel": "172",
+  "txmode": "CONT",
+  "updatedAt": "---NUMBER=0---",
+  "useEncryption": false,
+  "useSignature": false,
+}
+`;
+
+exports[`CIMT - App Settings Load default, edit, save load 1 1`] = `
+Object {
+  "closureSelectionMode": "SIMPLE",
+  "createdAt": "---NUMBER>0---",
+  "deletedAt": "---NUMBER=0---",
+  "deviceId": "*",
+  "intervalInMs": 1000,
+  "itisCodes": Array [
+    Object {
+      "code": 1025,
+      "label": "Road Construction",
+    },
+    Object {
+      "code": 769,
+      "label": "Closed to Traffic",
+    },
+    Object {
+      "code": 12545,
+      "label": "1",
+    },
+    Object {
+      "code": 8196,
+      "label": "Right Lane",
+    },
+    Object {
+      "code": 8195,
+      "label": "Left Lane",
+    },
+    Object {
+      "code": 771,
+      "label": "Closed Ahead",
+    },
+    Object {
+      "code": 7451,
+      "label": "Merge",
+    },
+    Object {
+      "code": 13580,
+      "label": "Left",
+    },
+    Object {
+      "code": 13579,
+      "label": "Right",
+    },
+    Object {
+      "code": 8208,
+      "label": "Right Shoulder",
+    },
+    Object {
+      "code": 8209,
+      "label": "Left Shoulder",
+    },
+    Object {
+      "code": 13594,
+      "label": "Left Turn",
+    },
+    Object {
+      "code": 13599,
+      "label": "Right Turn",
+    },
+    Object {
+      "code": 268,
+      "label": "Speed Limit",
+    },
+    Object {
+      "code": 12559,
+      "label": "15",
+    },
+    Object {
+      "code": 12564,
+      "label": "20",
+    },
+    Object {
+      "code": 12569,
+      "label": "25",
+    },
+    Object {
+      "code": 12574,
+      "label": "30",
+    },
+    Object {
+      "code": 12579,
+      "label": "35",
+    },
+    Object {
+      "code": 12584,
+      "label": "40",
+    },
+    Object {
+      "code": 12589,
+      "label": "45",
+    },
+    Object {
+      "code": 12594,
+      "label": "50",
+    },
+    Object {
+      "code": 12599,
+      "label": "55",
+    },
+    Object {
+      "code": 12604,
+      "label": "60",
+    },
+    Object {
+      "code": 12609,
+      "label": "65",
+    },
+    Object {
+      "code": 12614,
+      "label": "70",
+    },
+    Object {
+      "code": 8720,
+      "label": "MPH",
+    },
+    Object {
+      "code": 2574,
+      "label": "Height Limit",
+    },
+    Object {
+      "code": 13569,
+      "label": "Ahead",
+    },
+    Object {
+      "code": 12712,
+      "label": "168",
+    },
+    Object {
+      "code": 8709,
+      "label": "Inches",
+    },
+    Object {
+      "code": 13,
+      "label": "Fab",
+    },
+  ],
+  "priority": 4,
+  "psid": "8002",
+  "serviceChannel": "172",
+  "txmode": "CONT",
+  "updatedAt": "---NUMBER>0---",
+  "useEncryption": false,
+  "useSignature": false,
+}
+`;
+
+exports[`CIMT - App Settings Load default, edit, save load 2 1`] = `
+Object {
+  "closureSelectionMode": "SIMPLE",
+  "createdAt": "---NUMBER>0---",
+  "deletedAt": "---NUMBER=0---",
+  "deviceId": "*",
+  "intervalInMs": 1200,
+  "itisCodes": Array [
+    Object {
+      "code": 1025,
+      "label": "Road Construction",
+    },
+    Object {
+      "code": 769,
+      "label": "Closed to Traffic",
+    },
+    Object {
+      "code": 12545,
+      "label": "1",
+    },
+    Object {
+      "code": 8196,
+      "label": "Right Lane",
+    },
+    Object {
+      "code": 8195,
+      "label": "Left Lane",
+    },
+    Object {
+      "code": 771,
+      "label": "Closed Ahead",
+    },
+    Object {
+      "code": 7451,
+      "label": "Merge",
+    },
+    Object {
+      "code": 13580,
+      "label": "Left",
+    },
+    Object {
+      "code": 13579,
+      "label": "Right",
+    },
+    Object {
+      "code": 8208,
+      "label": "Right Shoulder",
+    },
+    Object {
+      "code": 8209,
+      "label": "Left Shoulder",
+    },
+    Object {
+      "code": 13594,
+      "label": "Left Turn",
+    },
+    Object {
+      "code": 13599,
+      "label": "Right Turn",
+    },
+    Object {
+      "code": 268,
+      "label": "Speed Limit",
+    },
+    Object {
+      "code": 12559,
+      "label": "15",
+    },
+    Object {
+      "code": 12564,
+      "label": "20",
+    },
+    Object {
+      "code": 12569,
+      "label": "25",
+    },
+    Object {
+      "code": 12574,
+      "label": "30",
+    },
+    Object {
+      "code": 12579,
+      "label": "35",
+    },
+    Object {
+      "code": 12584,
+      "label": "40",
+    },
+    Object {
+      "code": 12589,
+      "label": "45",
+    },
+    Object {
+      "code": 12594,
+      "label": "50",
+    },
+    Object {
+      "code": 12599,
+      "label": "55",
+    },
+    Object {
+      "code": 12604,
+      "label": "60",
+    },
+    Object {
+      "code": 12609,
+      "label": "65",
+    },
+    Object {
+      "code": 12614,
+      "label": "70",
+    },
+    Object {
+      "code": 8720,
+      "label": "MPH",
+    },
+    Object {
+      "code": 2574,
+      "label": "Height Limit",
+    },
+    Object {
+      "code": 13569,
+      "label": "Ahead",
+    },
+    Object {
+      "code": 12712,
+      "label": "168",
+    },
+    Object {
+      "code": 8709,
+      "label": "Inches",
+    },
+    Object {
+      "code": 13,
+      "label": "Fab",
+    },
+    Object {
+      "code": 14,
+      "label": "Conform",
+    },
+  ],
+  "priority": 12,
+  "psid": "PSID-2423",
+  "serviceChannel": "200",
+  "txmode": "CONT",
+  "updatedAt": "---NUMBER>0---",
+  "useEncryption": true,
+  "useSignature": true,
+}
+`;

@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`validateWorkzoneForBroadcast CIM closedLane and closedShoudler validations do not fail on custom selection type 1`] = `
+Object {
+  "dataValidation": Object {},
+  "isValid": true,
+  "messages": Array [],
+}
+`;
+
+exports[`validateWorkzoneForBroadcast CIM closedLane and closedShoudler validations do not fail on custom selection type with simple closure set to a reduced speed closure 1`] = `
+Object {
+  "dataValidation": Object {},
+  "isValid": true,
+  "messages": Array [],
+}
+`;
+
+exports[`validateWorkzoneForBroadcast CIM duration in minutes cannot be greater than 32000 1`] = `
+Object {
+  "dataValidation": Object {
+    "end": "Minutes duration from start to end date exceeds the maximum number of minutes allowed (22 days, 5 hours, and 20 minutes or 32000 minutes)",
+  },
+  "isValid": false,
+  "messages": Array [
+    "End: Minutes duration from start to end date exceeds the maximum number of minutes allowed (22 days, 5 hours, and 20 minutes or 32000 minutes)",
+  ],
+}
+`;
+
+exports[`validateWorkzoneForBroadcast CIM forever with wrong end date, should not complain 1`] = `
+Object {
+  "dataValidation": Object {},
+  "isValid": true,
+  "messages": Array [],
+}
+`;
+
+exports[`validateWorkzoneForBroadcast CIM speedLimitInMiles not divisible by 5mph 1`] = `
+Object {
+  "dataValidation": Object {
+    "speedLimitInMiles": "Speed limit must be in increments of 5mph.",
+  },
+  "isValid": false,
+  "messages": Array [
+    "Speed limit in miles: Speed limit must be in increments of 5mph.",
+  ],
+}
+`;
+
+exports[`validateWorkzoneForBroadcast CIM with custom closure selection mode and no ITIS codes 1`] = `
+Object {
+  "dataValidation": Object {
+    "itisCodes": "No ITIS code is selected",
+  },
+  "isValid": false,
+  "messages": Array [
+    "Itis codes: No ITIS code is selected",
+  ],
+}
+`;
+
+exports[`validateWorkzoneForBroadcast CIM with custom closure selection mode, no closureType and no ITIS codes 1`] = `
+Object {
+  "dataValidation": Object {
+    "itisCodes": "No ITIS code is selected",
+  },
+  "isValid": false,
+  "messages": Array [
+    "Itis codes: No ITIS code is selected",
+  ],
+}
+`;
+
+exports[`validateWorkzoneForBroadcast CIM with deprecated simple closure type does not fail when custom mode is selected 1`] = `
+Object {
+  "dataValidation": Object {},
+  "isValid": true,
+  "messages": Array [],
+}
+`;
+
+exports[`validateWorkzoneForBroadcast CIM with deprecated simple closure type fails validation 1`] = `
+Object {
+  "dataValidation": Object {
+    "closureType": "Closure type is deprecated, please select a different closure type",
+  },
+  "isValid": false,
+  "messages": Array [
+    "Closure type: Closure type is deprecated, please select a different closure type",
+  ],
+}
+`;
+
+exports[`validateWorkzoneForBroadcast CIM with duplicate headings 1`] = `
+Object {
+  "dataValidation": Object {
+    "heading": "There are duplicate headings provided",
+  },
+  "isValid": false,
+  "messages": Array [
+    "Heading: There are duplicate headings provided",
+  ],
+}
+`;
+
+exports[`validateWorkzoneForBroadcast CIM with radius broadcast selection, without radius 1`] = `
+Object {
+  "dataValidation": Object {
+    "broadcast.selectionByRadius.radiusInMeters": "Radius broadcast area cannot be zero",
+  },
+  "isValid": false,
+  "messages": Array [
+    "Broadcast/selection by radius/radius in meters: Radius broadcast area cannot be zero",
+  ],
+}
+`;
+
+exports[`validateWorkzoneForBroadcast CIM with region broadcast selection, with 1 point 1`] = `
+Object {
+  "dataValidation": Object {
+    "broadcast.selectionByRegion.region": "Not enough points for a polygon",
+  },
+  "isValid": false,
+  "messages": Array [
+    "Broadcast/selection by region/region: Not enough points for a polygon",
+  ],
+}
+`;
+
+exports[`validateWorkzoneForBroadcast CIM with region broadcast selection, with 2 points 1`] = `
+Object {
+  "dataValidation": Object {
+    "broadcast.selectionByRegion.region": "Not enough points for a polygon",
+  },
+  "isValid": false,
+  "messages": Array [
+    "Broadcast/selection by region/region: Not enough points for a polygon",
+  ],
+}
+`;
+
+exports[`validateWorkzoneForBroadcast CIM with region broadcast selection, with 3 points (close) 1`] = `
+Object {
+  "dataValidation": Object {
+    "broadcast.selectionByRegion.region": "Not enough points for a polygon",
+  },
+  "isValid": false,
+  "messages": Array [
+    "Broadcast/selection by region/region: Not enough points for a polygon",
+  ],
+}
+`;
+
+exports[`validateWorkzoneForBroadcast CIM with region broadcast selection, with 3 points (does not close) 1`] = `
+Object {
+  "dataValidation": Object {
+    "broadcast.selectionByRegion.region": "Not enough points for a polygon",
+  },
+  "isValid": false,
+  "messages": Array [
+    "Broadcast/selection by region/region: Not enough points for a polygon",
+  ],
+}
+`;
+
+exports[`validateWorkzoneForBroadcast CIM with region broadcast selection, with 4 points (close) 1`] = `
+Object {
+  "dataValidation": Object {},
+  "isValid": true,
+  "messages": Array [],
+}
+`;
+
+exports[`validateWorkzoneForBroadcast CIM with region broadcast selection, with 4 points (does not close) 1`] = `
+Object {
+  "dataValidation": Object {
+    "broadcast.selectionByRegion.region": "The last point should match the start point to close the polygon",
+  },
+  "isValid": false,
+  "messages": Array [
+    "Broadcast/selection by region/region: The last point should match the start point to close the polygon",
+  ],
+}
+`;
+
+exports[`validateWorkzoneForBroadcast CIM with region broadcast selection, without points 1`] = `
+Object {
+  "dataValidation": Object {
+    "broadcast.selectionByRegion.region": "Not enough points for a polygon",
+  },
+  "isValid": false,
+  "messages": Array [
+    "Broadcast/selection by region/region: Not enough points for a polygon",
+  ],
+}
+`;
+
+exports[`validateWorkzoneForBroadcast CIM with selected closure type but no ITIS codes 1`] = `
+Object {
+  "dataValidation": Object {
+    "itisCodes": "The selected closure type has not returned any ITIS codes",
+  },
+  "isValid": false,
+  "messages": Array [
+    "Itis codes: The selected closure type has not returned any ITIS codes",
+  ],
+}
+`;
+
+exports[`validateWorkzoneForBroadcast CIM with unselected closure type 1`] = `
+Object {
+  "dataValidation": Object {
+    "closureType": "Closure type is not selected",
+  },
+  "isValid": false,
+  "messages": Array [
+    "Closure type: Closure type is not selected",
+  ],
+}
+`;
+
+exports[`validateWorkzoneForBroadcast Correct CIM 1`] = `
+Object {
+  "dataValidation": Object {},
+  "isValid": true,
+  "messages": Array [],
+}
+`;
+
+exports[`validateWorkzoneForBroadcast Empty CIM 1`] = `
+Object {
+  "dataValidation": Object {
+    "broadcast.selectionByRegion.region": "Not enough points for a polygon",
+    "closedLaneWidthInMeters": "Should be bigger than 1 feet",
+    "closureType": "Closure type is not selected",
+    "name": "Length must be between 2 and 300 characters",
+    "path": "Path is not defined",
+    "point": "Reference point is not defined",
+    "workzoneId": "Required",
+  },
+  "isValid": false,
+  "messages": Array [
+    "Workzone id: Required",
+    "Name: Length must be between 2 and 300 characters",
+    "Closure type: Closure type is not selected",
+    "Closed lane width in meters: Should be bigger than 1 feet",
+    "Point: Reference point is not defined",
+    "Path: Path is not defined",
+    "Broadcast/selection by region/region: Not enough points for a polygon",
+  ],
+}
+`;

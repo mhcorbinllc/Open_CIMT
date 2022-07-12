@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`validateWorkzonesAppSettings Default App Settings with device id set is valid 1`] = `
+Object {
+  "dataValidation": Object {},
+  "isValid": true,
+  "messages": Array [],
+}
+`;
+
+exports[`validateWorkzonesAppSettings Fails when missing itis codes needed for simple closure types 1`] = `
+Object {
+  "dataValidation": Object {
+    "itisCodes": "ITIS code 8720 is required for the simple closure type \\"Reduced speed 15 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Reduced speed 20 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Reduced speed 25 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Reduced speed 30 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Reduced speed 35 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Reduced speed 40 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Reduced speed 45 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Reduced speed 50 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Reduced speed 55 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Reduced speed 60 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Reduced speed 65 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Reduced speed 70 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Left turn speed 15 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Left turn speed 20 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Left turn speed 25 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Left turn speed 30 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Left turn speed 35 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Left turn speed 40 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Left turn speed 45 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Left turn speed 50 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Left turn speed 55 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Right turn speed 15 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Right turn speed 20 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Right turn speed 25 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Right turn speed 30 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Right turn speed 35 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Right turn speed 40 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Right turn speed 45 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Right turn speed 50 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Right turn speed 55 mph\\".",
+  },
+  "isValid": false,
+  "messages": Array [
+    "Itis codes: ITIS code 8720 is required for the simple closure type \\"Reduced speed 15 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Reduced speed 20 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Reduced speed 25 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Reduced speed 30 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Reduced speed 35 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Reduced speed 40 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Reduced speed 45 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Reduced speed 50 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Reduced speed 55 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Reduced speed 60 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Reduced speed 65 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Reduced speed 70 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Left turn speed 15 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Left turn speed 20 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Left turn speed 25 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Left turn speed 30 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Left turn speed 35 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Left turn speed 40 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Left turn speed 45 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Left turn speed 50 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Left turn speed 55 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Right turn speed 15 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Right turn speed 20 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Right turn speed 25 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Right turn speed 30 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Right turn speed 35 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Right turn speed 40 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Right turn speed 45 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Right turn speed 50 mph\\".
+ITIS code 8720 is required for the simple closure type \\"Right turn speed 55 mph\\".",
+  ],
+}
+`;

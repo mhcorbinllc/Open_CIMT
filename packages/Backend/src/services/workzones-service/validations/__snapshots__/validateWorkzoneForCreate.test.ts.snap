@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`validateWorkzoneForCreate Missing workzoneId (correct) 1`] = `
+Object {
+  "dataValidation": Object {},
+  "isValid": true,
+  "messages": Array [],
+}
+`;
+
+exports[`validateWorkzoneForCreate Providing workzoneId (wrong) 1`] = `
+Object {
+  "dataValidation": Object {
+    "workzoneId": "Should not provide workzoneId on Create",
+  },
+  "isValid": false,
+  "messages": Array [
+    "Workzone id: Should not provide workzoneId on Create",
+  ],
+}
+`;

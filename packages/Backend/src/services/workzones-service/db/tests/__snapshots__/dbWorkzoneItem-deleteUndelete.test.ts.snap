@@ -1,0 +1,257 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CIM Items - Create Update Create Update Check CIM item the history: Deleted CIM 1`] = `
+Object {
+  "active": true,
+  "broadcast": Object {
+    "selectionByRadius": Object {
+      "radiusInMeters": 0,
+    },
+    "selectionByRegion": Object {
+      "region": Object {
+        "points": Array [
+          Object {
+            "lat": -0.232,
+            "lng": 1,
+          },
+        ],
+      },
+    },
+    "selectionMode": "REGION",
+  },
+  "closedLane": "LEFT",
+  "closedLaneWidthInMeters": 0,
+  "closedShoulder": "RIGHT",
+  "closureSelectionMode": "CUSTOM",
+  "closureType": "NONE",
+  "createdAt": "---NUMBER>0---",
+  "deletedAt": "---NUMBER>0---",
+  "end": "2021-04-15T22:00:00.000Z",
+  "forEver": false,
+  "heading": Array [],
+  "itisCodes": Array [],
+  "kapschId": 24058204,
+  "name": "Woods 204 - 621 Hutton",
+  "notes": "Some additional info about this.
+Road defect",
+  "path": Object {
+    "points": Array [],
+  },
+  "point": Object {
+    "lat": -1,
+    "lng": -1,
+  },
+  "speedLimitInMiles": 10,
+  "start": "2021-04-01T20:00:00.000Z",
+  "updatedAt": "---NUMBER>0---",
+  "workersPresent": true,
+  "workzoneId": "---STRING_NON_EMPTY---",
+}
+`;
+
+exports[`CIM Items - Create Update Create Update Check CIM item the history: History 1`] = `
+Array [
+  Object {
+    "date": "---NUMBER>0---",
+    "name": "CIM creation",
+    "userId": "test-user-id-23242",
+    "workzone": Object {
+      "active": true,
+      "broadcast": Object {
+        "selectionByRadius": Object {
+          "radiusInMeters": 0,
+        },
+        "selectionByRegion": Object {
+          "region": Object {
+            "points": Array [
+              Object {
+                "lat": -0.232,
+                "lng": 1,
+              },
+            ],
+          },
+        },
+        "selectionMode": "REGION",
+      },
+      "closedLane": "LEFT",
+      "closedLaneWidthInMeters": 0,
+      "closedShoulder": "RIGHT",
+      "closureSelectionMode": "CUSTOM",
+      "closureType": "NONE",
+      "createdAt": "---NUMBER>0---",
+      "deletedAt": "---NUMBER=0---",
+      "end": "2021-04-15T22:00:00.000Z",
+      "forEver": false,
+      "heading": Array [],
+      "itisCodes": Array [],
+      "kapschId": 24058204,
+      "name": "Woods 204 - 621 Hutton",
+      "notes": "Some additional info about this.
+Road defect",
+      "path": Object {
+        "points": Array [],
+      },
+      "point": Object {
+        "lat": -1,
+        "lng": -1,
+      },
+      "speedLimitInMiles": 10,
+      "start": "2021-04-01T20:00:00.000Z",
+      "updatedAt": "---NUMBER>0---",
+      "workersPresent": true,
+      "workzoneId": "---STRING_NON_EMPTY---",
+    },
+  },
+  Object {
+    "date": "---NUMBER>0---",
+    "name": "CIM and broadcasted CIM kapschId 24058204 deleted",
+    "userId": "test-user-id-23242",
+    "workzone": Object {
+      "active": true,
+      "broadcast": Object {
+        "selectionByRadius": Object {
+          "radiusInMeters": 0,
+        },
+        "selectionByRegion": Object {
+          "region": Object {
+            "points": Array [
+              Object {
+                "lat": -0.232,
+                "lng": 1,
+              },
+            ],
+          },
+        },
+        "selectionMode": "REGION",
+      },
+      "closedLane": "LEFT",
+      "closedLaneWidthInMeters": 0,
+      "closedShoulder": "RIGHT",
+      "closureSelectionMode": "CUSTOM",
+      "closureType": "NONE",
+      "createdAt": "---NUMBER>0---",
+      "deletedAt": "---NUMBER>0---",
+      "end": "2021-04-15T22:00:00.000Z",
+      "forEver": false,
+      "heading": Array [],
+      "itisCodes": Array [],
+      "kapschId": 24058204,
+      "name": "Woods 204 - 621 Hutton",
+      "notes": "Some additional info about this.
+Road defect",
+      "path": Object {
+        "points": Array [],
+      },
+      "point": Object {
+        "lat": -1,
+        "lng": -1,
+      },
+      "speedLimitInMiles": 10,
+      "start": "2021-04-01T20:00:00.000Z",
+      "updatedAt": "---NUMBER>0---",
+      "workersPresent": true,
+      "workzoneId": "---STRING_NON_EMPTY---",
+    },
+  },
+  Object {
+    "date": "---NUMBER>0---",
+    "name": "CIM undeleted",
+    "userId": "test-user-id-23242",
+    "workzone": Object {
+      "active": true,
+      "broadcast": Object {
+        "selectionByRadius": Object {
+          "radiusInMeters": 0,
+        },
+        "selectionByRegion": Object {
+          "region": Object {
+            "points": Array [
+              Object {
+                "lat": -0.232,
+                "lng": 1,
+              },
+            ],
+          },
+        },
+        "selectionMode": "REGION",
+      },
+      "closedLane": "LEFT",
+      "closedLaneWidthInMeters": 0,
+      "closedShoulder": "RIGHT",
+      "closureSelectionMode": "CUSTOM",
+      "closureType": "NONE",
+      "createdAt": "---NUMBER>0---",
+      "deletedAt": "---NUMBER=0---",
+      "end": "2021-04-15T22:00:00.000Z",
+      "forEver": false,
+      "heading": Array [],
+      "itisCodes": Array [],
+      "kapschId": -1,
+      "name": "Woods 204 - 621 Hutton",
+      "notes": "Some additional info about this.
+Road defect",
+      "path": Object {
+        "points": Array [],
+      },
+      "point": Object {
+        "lat": -1,
+        "lng": -1,
+      },
+      "speedLimitInMiles": 10,
+      "start": "2021-04-01T20:00:00.000Z",
+      "updatedAt": "---NUMBER>0---",
+      "workersPresent": true,
+      "workzoneId": "---STRING_NON_EMPTY---",
+    },
+  },
+]
+`;
+
+exports[`CIM Items - Create Update Create Update Check CIM item the history: The undeleted CIM 1`] = `
+Object {
+  "active": true,
+  "broadcast": Object {
+    "selectionByRadius": Object {
+      "radiusInMeters": 0,
+    },
+    "selectionByRegion": Object {
+      "region": Object {
+        "points": Array [
+          Object {
+            "lat": -0.232,
+            "lng": 1,
+          },
+        ],
+      },
+    },
+    "selectionMode": "REGION",
+  },
+  "closedLane": "LEFT",
+  "closedLaneWidthInMeters": 0,
+  "closedShoulder": "RIGHT",
+  "closureSelectionMode": "CUSTOM",
+  "closureType": "NONE",
+  "createdAt": "---NUMBER>0---",
+  "deletedAt": "---NUMBER=0---",
+  "end": "2021-04-15T22:00:00.000Z",
+  "forEver": false,
+  "heading": Array [],
+  "itisCodes": Array [],
+  "kapschId": -1,
+  "name": "Woods 204 - 621 Hutton",
+  "notes": "Some additional info about this.
+Road defect",
+  "path": Object {
+    "points": Array [],
+  },
+  "point": Object {
+    "lat": -1,
+    "lng": -1,
+  },
+  "speedLimitInMiles": 10,
+  "start": "2021-04-01T20:00:00.000Z",
+  "updatedAt": "---NUMBER>0---",
+  "workersPresent": true,
+  "workzoneId": "---STRING_NON_EMPTY---",
+}
+`;
