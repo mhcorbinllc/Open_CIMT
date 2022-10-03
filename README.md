@@ -7,6 +7,7 @@ Stake holders in this project are DriveOhio, City of Dublin Ohio, and City of Ma
 
 ## Workflow
 <img width="650" alt="image" src="https://user-images.githubusercontent.com/590535/193616836-bac5056e-f99c-4ae6-ab60-1b0779eeb55e.png">
+
 - Traffic Management User will initially create the CIMT entry by entering details using the desktop or mobile applications.  Details include:
   - descriptve name (free text)
   - speed limit (mph)
